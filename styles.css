@@ -32,10 +32,10 @@ body{
 h1, h2, h3, h4, h5{
 line-height: 1.2;
 letter-spacing: -2px;
-font-weight: 700;
 }
 h1{
     font-size: 70px;
+    font-weight: 700;
 }
 h2{
     font-size: 48px;
@@ -58,3 +58,5 @@ a{
 ul{
     font-size: 16px;
 }
+
+*/ 
