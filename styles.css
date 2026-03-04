@@ -24,12 +24,14 @@ ROBOTO
     margin: 0;
     font-family: ROBOTO;
     box-sizing: content-box;
+    max-width: 1600px;
     color: white;
 }
 .container{
     background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1200px;
 }
 h1, h2, h3, h4, h5{
 line-height: 1.2;
@@ -81,11 +83,11 @@ ul{
 }
 .heading-1{
     text-align: center;
-    padding: 300px 50px 50px 50px;
+    padding: 600px 50px 50px 50px;
 }
 .paragraph-1{
     text-align: center;
-    padding: 20px 300px 50px 50px;
+    padding: 20px 600px 50px 50px;
 }
 
 .more{
@@ -97,7 +99,7 @@ ul{
     border-radius: 15px;
     font-size: 20px;
     max-width: 50px;
-    margin-left: 100px;
+    margin-left: 300px;
     padding: 15px 15px;
 }
 .highlight-2{
@@ -105,6 +107,6 @@ ul{
     border-radius: 15px;
     font-size: 20px;
     max-width: 50px;
-    margin-left: 100px;
+    margin-left: 300px;
     padding: 15px 15px;
 }
