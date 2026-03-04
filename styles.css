@@ -1,0 +1,60 @@
+/*
+
+------------TYPOGRAPHY------------
+
+FONT SIZES
+12px / 16px / 20px / 24px / 32px / 40px / 48px / 62px
+
+FONT WEIGHT
+400 / 700
+
+LINE HEIGHT
+1.2 / 1.5
+
+LETTER SPACING
+0 / -2PX
+
+FONT FAMILY
+ROBOTO
+*/
+
+/*GlobaL Styles*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: ROBOTO;
+    box-sizing: content-box;
+    max-width: 1400px;
+}
+body{
+    max-width: 1400px;
+}
+h1, h2, h3, h4, h5{
+line-height: 1.2;
+letter-spacing: -2px;
+font-weight: 700;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 32px;
+}
+p{
+    font-size: 24px;
+    color:  #343a40;
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #212529;
+}
+ul{
+    font-size: 16px;
+}
