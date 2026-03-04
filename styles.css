@@ -39,7 +39,6 @@ letter-spacing: -2px;
 }
 h1{
     font-size: 70px;
-    font-weight: 700;
 }
 h2{
     font-size: 48px;
@@ -69,30 +68,38 @@ ul{
 }
 .nam{
         font-size: 20px;
-        color: chocolate;
+        color: orangered;
+        font-weight: 700;
 }
 .search-bar{
         border: 2px solid black;
+        border-radius: 50px;
+        max-width: 20px;
 }
 .heading-1{
     text-align: center;
-    padding: 50px 50px;
+    padding: 100px 50px 50px 50px;
 }
 .paragraph-1{
     text-align: center;
-    padding: 20px 50px;
+    padding: 20px 100px 50px 50px;
 }
 
+.more{
+    border: 2px solid orangered;
+}
 /* COMPONENT */
 .highlight-1{
     background-color: orangered;
     border-radius: 15px;
     font-size: 20px;
     max-width: 50px;
+    text-align: center;
 }
 .highlight-2{
     border: 2px solid orangered;
     border-radius: 15px;
     font-size: 20px;
     max-width: 50px;
+    text-align: center;
 }
