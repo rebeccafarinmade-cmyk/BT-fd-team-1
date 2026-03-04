@@ -25,10 +25,10 @@ ROBOTO
     font-family: ROBOTO;
     box-sizing: content-box;
     max-width: 1600px;
+    color: white;
 }
 body{
     background-image: url('images/background.png');
-    color: white;
 }
 h1, h2, h3, h4, h5{
 line-height: 1.2;
