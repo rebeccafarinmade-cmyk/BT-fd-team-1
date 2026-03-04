@@ -31,7 +31,7 @@ body{
     background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1400px;
+    max-width: 1200px;
 }
 h1, h2, h3, h4, h5{
 line-height: 1.2;
@@ -68,9 +68,31 @@ ul{
         font-size: 24px;
 }
 .nam{
-        font-size: 16px;
+        font-size: 20px;
         color: chocolate;
 }
 .search-bar{
         border: 2px solid black;
+}
+.heading-1{
+    text-align: center;
+    padding: 50px 50px;
+}
+.paragraph-1{
+    text-align: center;
+    padding: 20px 50px;
+}
+
+/* COMPONENT */
+.highlight-1{
+    background-color: orangered;
+    border-radius: 15px;
+    font-size: 20px;
+    max-width: 50px;
+}
+.highlight-2{
+    border: 2px solid orangered;
+    border-radius: 15px;
+    font-size: 20px;
+    max-width: 50px;
 }
