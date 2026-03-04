@@ -32,6 +32,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1200px;
+    max-height: 1000px;
 }
 h1, h2, h3, h4, h5{
 line-height: 1.2;
@@ -62,6 +63,8 @@ ul{
 
 .navi{
         padding: 10px 15px;
+        display: flex;
+        flex-wrap: wrap;
 }
 .name{
         font-size: 24px;
@@ -78,11 +81,11 @@ ul{
 }
 .heading-1{
     text-align: center;
-    padding: 100px 50px 50px 50px;
+    padding: 300px 50px 50px 50px;
 }
 .paragraph-1{
     text-align: center;
-    padding: 20px 100px 50px 50px;
+    padding: 20px 300px 50px 50px;
 }
 
 .more{
@@ -94,12 +97,14 @@ ul{
     border-radius: 15px;
     font-size: 20px;
     max-width: 50px;
-    text-align: center;
+    margin-left: 100px;
+    padding: 15px 15px;
 }
 .highlight-2{
     border: 2px solid orangered;
     border-radius: 15px;
     font-size: 20px;
     max-width: 50px;
-    text-align: center;
+    margin-left: 100px;
+    padding: 15px 15px;
 }
