@@ -27,7 +27,8 @@ ROBOTO
     max-width: 1600px;
 }
 body{
-    background-image: url(images/background.png);
+    background-image: url('images/background.png');
+    color: white;
 }
 h1, h2, h3, h4, h5{
 line-height: 1.2;
@@ -59,4 +60,16 @@ ul{
     font-size: 16px;
 }
 
-*/ 
+.navi{
+        padding: 10px 15px;
+}
+.name{
+        font-size: 24px;
+}
+.nam{
+        font-size: 16px;
+        color: chocolate;
+}
+.search-bar{
+        border: 2px solid black;
+}
