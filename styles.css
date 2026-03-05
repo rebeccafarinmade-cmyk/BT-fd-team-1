@@ -1,0 +1,270 @@
+/*
+
+------------TYPOGRAPHY------------
+
+FONT SIZES
+12px / 16px / 20px / 24px / 32px / 40px / 48px / 62px
+
+FONT WEIGHT
+400 / 700
+
+LINE HEIGHT
+1.2 / 1.5
+
+LETTER SPACING
+0 / -2PX
+
+FONT FAMILY
+ROBOTO
+*/
+
+/*GlobaL Styles*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: ROBOTO;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5{
+line-height: 1.2;
+letter-spacing: -2px;
+}
+h1{
+    font-size: 78px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 45px;
+}
+h4{
+    font-size: 32px;
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+ul{
+    font-size: 16px;
+    list-style: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+/*NAVIGATION*/ 
+header{
+  background-color:rgb(80, 3, 3);
+  padding-bottom: 10px
+}
+
+.navi{
+  padding-top: 40px;
+  padding-bottom: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.home{
+  background-color: orangered;
+  padding: 15px 5px;
+}
+.name{
+  font-size: 40px;
+  margin-left: 50px;
+}
+.nam{
+  font-size: 48px;
+  color: orangered;
+  font-weight: 900;
+  padding-right: 30px;
+}
+
+/*HERO SECTION*/
+.heading{
+  text-align: center;
+  padding: 80px 40px 30px 50px;
+  margin-top: 120px;
+}
+
+.heading-1{
+  text-align: center;
+  padding: 10px 10px 50px 50px;
+  font-weight: 700;
+}
+
+.paragraph-1{
+  text-align: center;
+  padding: 20px 50px 10px 50px;
+}
+
+/* header animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navi, .name, .nam, .nav-links, .heading, .heading-1, .paragraph-1, .highlight {
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+}
+
+/*FEATURES SECTION*/
+
+main{
+  margin-top: 225px;
+}
+
+.heading-2{
+  text-align: center;
+  padding-bottom:3rem;
+  color: orangered;
+}
+.events{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10rem;
+}
+.more{
+  background-color: white;
+  color: black;
+  padding: 40px 20px 60px 20px;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+/*CTA SECTION*/
+.cta{
+  background: rgb(80, 3, 3);
+  color: white;
+  text-align: center;
+  padding: 5rem;
+}
+
+.cta h2{
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+
+.cta p{
+  padding-bottom: 5rem;
+}
+
+.cta-btn{
+  background: orangered;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  }
+  
+.cta-btn:hover{
+  background: rgb(120,0,120);
+}
+
+/*FOOTER*/
+.foot{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-top: 2rem;
+}
+
+.media img{
+  max-width: 40px;
+  padding-right: 10px;
+}
+
+.media{
+  margin-bottom: 10px;
+   
+}
+
+/* COMPONENT */
+.link:hover, .link:active{
+  color: purple;
+}
+
+.btn{
+  padding: 5px 5px;
+  margin: 10px 2px 20px 90px;
+  border-radius: 10px;
+
+}
+.highlight{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 18rem;
+}
+
+.highlight-1{
+    background-color: orangered;
+    border-radius: 50px;
+    font-size: 20px;
+    max-width: 200px;
+    margin-left: 20px;
+    margin-top: 80px;
+    padding: 20px 60px;
+}
+.highlight-2{
+    border: 2px solid orangered;
+    border-radius: 50px;
+    font-size: 20px;
+    max-width: 200px;
+    margin-left: 20px;
+    margin-top: 80px;
+    padding: 20px 50px;
+}
+
+.highlight-1:hover, .highlight-1:active{
+  background-color: purple;
+}
+.highlight-1:link, .highlight-1:visited{
+  color: blueviolet;
+}
+.highlight-2.hover, .highlight-2:active{
+  background-color: purple;
+}
+.highlight-2:link, .highlight-2:visited{
+  color: blueviolet;
+}
+
+.active{
+  background-color: green;
+  color: white;
+  position: absolute;
+}
+
+.planning{
+  background-color: orange;
+  color: white;
+  position: absolute
+}
+
+.passed{
+  background-color: red;
+  color: white;
+  position: absolute;
+}
