@@ -25,6 +25,7 @@ a{
 }
 img{
   width: 100%;
+  max-width: 300px;
 }
 body{
   background-color: beige;
