@@ -23,9 +23,9 @@ a{
   display: flex;
   justify-content: center;
 }
-img{
+.heading img{
   width: 100%;
-  max-width: 200px;
+  max-width: 50px;
 }
 body{
   background-color: beige;
