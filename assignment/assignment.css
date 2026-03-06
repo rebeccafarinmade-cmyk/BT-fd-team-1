@@ -9,6 +9,9 @@ h1{
   line-height: 2;
   letter-spacing: -1.2;
 }
+body{
+  background-color: beige;
+}
 a{
   text-decoration: none;
   font-size: 20px;
@@ -22,22 +25,20 @@ a{
 .navi a{
   padding-right: 40px;
 }
-.heading{
+.main{
   display: flex;
   justify-content: center;
   padding-top: 80px;
 }
-.heading h1{
+.main h1{
   padding-right: 40px;
 }
-.heading img{
+.main img{
   max-width: 400px;
 }
-body{
-  background-color: beige;
-}
 .table{
-  padding-left: 30px;
+  display: flex;
+  justify-content: center;
 }
 th{
   padding-right: 10px;
