@@ -17,14 +17,15 @@ a{
 .navi{
   background-color: lightblue;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 .heading{
   display: flex;
   justify-content: center;
+  justify-content: space-between;
 }
 .heading img{
-  max-width: 300px;
+  max-width: 400px;
 }
 body{
   background-color: beige;
