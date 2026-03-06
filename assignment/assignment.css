@@ -18,12 +18,16 @@ a{
   background-color: lightblue;
   display: flex;
   justify-content: flex-end;
+}
+.navi a{
   padding-right: 20px;
 }
 .heading{
   display: flex;
   justify-content: center;
-  margin-right: 20px;
+}
+.heading h1{
+  padding: 20px;
 }
 .heading img{
   max-width: 400px;
