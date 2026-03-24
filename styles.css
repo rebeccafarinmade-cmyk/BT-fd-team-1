@@ -26,33 +26,36 @@ ROBOTO
     font-family: ROBOTO;
     box-sizing: border-box;
 }
+HTML{
+  font-size: 62.5%;
+}
 h1, h2, h3, h4, h5{
 line-height: 1.2;
 letter-spacing: -2px;
 }
 h1{
-    font-size: 78px;
+    font-size: 7.8rem;
 }
 h2{
-    font-size: 50px;
+    font-size: 5.0rem;
 }
 h3{
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 h4{
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 p{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
 }
 a{
-    font-size: 16px;
+    font-size: 1.6rem;
     text-decoration: none;
     color: white;
 }
 ul{
-    font-size: 16px;
+    font-size: 1.6rem;
     list-style: none;
 }
 body{
@@ -62,11 +65,11 @@ body{
 /*NAVIGATION*/ 
 header{
   background-color:rgb(80, 3, 3);
-  padding-bottom: 10px
+  padding-bottom: 1.0rem
 }
 
 .navi{
-  padding-top: 40px;
+  padding-top: 4.0rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -77,35 +80,35 @@ header{
 }
 .home{
   background-color: orangered;
-  padding: 15px 5px;
+  padding: 1.5rem 5.0rem;
 }
 .name{
-  font-size: 40px;
-  margin-left: 50px;
+  font-size: 4.0rem;
+  margin-left: 5.0rem;
 }
 .nam{
-  font-size: 48px;
+  font-size: 4.8rem;
   color: orangered;
   font-weight: 900;
-  padding-right: 30px;
+  padding-right: 3.0rem;
 }
 
 /*HERO SECTION*/
 .heading{
   text-align: center;
-  padding: 80px 40px 30px 50px;
-  margin-top: 120px;
+  padding: 8.0rem 4.0rem 3.0rem 5.0rem;
+  margin-top: 12rem;
 }
 
 .heading-1{
   text-align: center;
-  padding: 10px 10px 50px 50px;
+  padding: 1.0rem 1.0rem 5.0rem 5.0rem;
   font-weight: 700;
 }
 
 .paragraph-1{
   text-align: center;
-  padding: 20px 50px 10px 50px;
+  padding: 2.0rem 5.0rem 1.0rem 5.0rem;
 }
 
 /* header animation */
@@ -128,7 +131,7 @@ header{
 /*FEATURES SECTION*/
 
 main{
-  margin-top: 225px;
+  margin-top: 22.5rem;
 }
 
 .heading-2{
@@ -146,8 +149,8 @@ main{
 .more{
   background-color: white;
   color: black;
-  padding: 40px 20px 60px 20px;
-  margin-bottom: 200px;
+  padding: 4.0rem 2.0rem 6.0rem 2.0rem;
+  margin-bottom: 20.0rem;
   position: relative;
 }
 
@@ -161,7 +164,7 @@ main{
 
 .cta h2{
   font-size: 4rem;
-  padding-bottom: 20px;
+  padding-bottom: 2.0rem;
 }
 
 .cta p{
@@ -171,7 +174,7 @@ main{
 .cta-btn{
   background: orangered;
   color: black;
-  padding: 20px;
+  padding: 2.0rem;
   text-decoration: none;
   border-radius: 30px;
   font-weight: bold;
@@ -192,11 +195,12 @@ main{
 
 .media img{
   max-width: 40px;
-  padding-right: 10px;
+  width: 100%;
+  padding-right: 1.0rem;
 }
 
 .media{
-  margin-bottom: 10px;
+  margin-bottom: 1.0rem;
    
 }
 
@@ -206,8 +210,8 @@ main{
 }
 
 .btn{
-  padding: 5px 5px;
-  margin: 10px 2px 20px 90px;
+  padding: 0.5rem 0.5rem;
+  margin: 1.0rem 2.0rem 2.0rem 9.0rem;
   border-radius: 10px;
 
 }
@@ -221,20 +225,20 @@ main{
 .highlight-1{
     background-color: orangered;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 2.0rem;
     max-width: 200px;
-    margin-left: 20px;
-    margin-top: 80px;
-    padding: 20px 60px;
+    margin-left: 2.0rem;
+    margin-top: 8.0rem;
+    padding: 2.0rem 6.0rem;
 }
 .highlight-2{
     border: 2px solid orangered;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 2.0rem;
     max-width: 200px;
-    margin-left: 20px;
-    margin-top: 80px;
-    padding: 20px 50px;
+    margin-left: 2.0rem;
+    margin-top: 8.0rem;
+    padding: 2.0rem 5.0rem;
 }
 
 .highlight-1:hover, .highlight-1:active{
