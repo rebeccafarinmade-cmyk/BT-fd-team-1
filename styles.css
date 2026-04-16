@@ -131,7 +131,7 @@ header{
 /*FEATURES SECTION*/
 
 main{
-  margin-top: 22.5rem;
+  margin-top: 10rem;
 }
 
 .heading-2{
@@ -149,26 +149,27 @@ main{
 .more{
   background-color: white;
   color: black;
-  padding: 4.0rem 2.0rem 6.0rem 2.0rem;
-  margin-bottom: 20.0rem;
+  border-radius: 50px;
+  padding: 4.0rem 2.0rem 6.0rem 5.0rem;
+  margin-bottom: 1rem;
   position: relative;
 }
 
 /*CTA SECTION*/
 .cta{
   background: rgb(80, 3, 3);
-  color: white;
+  color: #ffffff;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 40px;
   text-align: center;
-  padding: 5rem;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
 }
 
 .cta h2{
   font-size: 4rem;
-  padding-bottom: 2.0rem;
-}
-
-.cta p{
-  padding-bottom: 5rem;
 }
 
 .cta-btn{
@@ -178,6 +179,10 @@ main{
   text-decoration: none;
   border-radius: 30px;
   font-weight: bold;
+  max-width: 300px;
+  display: grid;
+  
+  width: 100%;
   }
   
 .cta-btn:hover{
@@ -197,6 +202,7 @@ main{
   max-width: 40px;
   width: 100%;
   padding-right: 1.0rem;
+  border-radius: 50px;
 }
 
 .media{
